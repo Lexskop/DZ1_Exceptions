@@ -1,6 +1,5 @@
 # Реализуйте 3 метода, чтобы в каждом из них получить разные исключения
 
-
 def meth_first():
     a = int(input('Введите целое число А -> '))
     b = int(input('Введите целое число B. Для получения исключения введите 0 -> '))
@@ -9,7 +8,6 @@ def meth_first():
     except ZeroDivisionError:
         print('Делить на ноль нельзя! ZeroDivisionError')
 
-
 def meth_second():
     c = [1, 2, 3]
     index = int(input('Введите индекс. Для получения исключения введите значение индекса больше 2 -> '))
@@ -17,7 +15,6 @@ def meth_second():
         print(c[index])
     except IndexError:
         print('Значения с таким индексом в массиве нет! IndexError')
-
 
 def meth_third():
     spices = dict()
