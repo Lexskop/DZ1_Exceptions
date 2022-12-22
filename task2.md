@@ -7,6 +7,5 @@
 * ArrayStoreException
 * ClassCastException 
 * IndexOutOfBoundsException 
-* NegativeArraySizeException
 * NoSuchElementException 
 * NumberFormatException
